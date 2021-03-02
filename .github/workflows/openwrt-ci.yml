@@ -49,7 +49,7 @@ jobs:
           ./scripts/feeds install -a
       
       
-      - name: Costom configure file
+      - name: Costom configuration file
         run: |
           rm -f ./.config*
           touch ./.config
