@@ -101,7 +101,10 @@ jobs:
           EOF
           
           # ========================固件定制部分结束========================
-        run: make defconfig
+          
+        run: |
+          sed -i 's/^[ \t]*//g' ./.config
+          make defconfig
 
       - name: Make download
         run: |
