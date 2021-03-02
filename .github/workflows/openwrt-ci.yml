@@ -52,7 +52,7 @@ jobs:
       - name: Generate configuration file
           # ========================固件定制部分========================
           
-          # 编译极路由1s固件:
+          # 编译极路由1s固件
           cat >> .config <<EOF
           CONFIG_TARGET_ramips=y
           CONFIG_TARGET_ramips_mt7620=y
