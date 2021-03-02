@@ -20,7 +20,7 @@ jobs:
 
   build_openwrt:
 
-    name: Build OpenWrt firmware
+    name: Build OpenWrt firmware for HiWiFi-1s
 
     runs-on: ubuntu-latest
 
