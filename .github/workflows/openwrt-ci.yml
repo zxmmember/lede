@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 # 
 
-name: 极路由1s-HC5661
+name: 极路由1s
 
 on:
 #  push:
