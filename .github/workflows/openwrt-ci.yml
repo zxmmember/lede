@@ -60,8 +60,8 @@ jobs:
         run: |
           rm -f ./.config*
           touch ./.config
-          chmod +x $DIY_SH
-          ./$DIY_SH
+          chmod +x diy.sh
+          ./diy.sh
 
           # ========================固件定制部分 极路由1s固件========================
           cat >> .config <<EOF
