@@ -103,7 +103,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-filetransfer=n
           CONFIG_PACKAGE_luci-app-unblockneteasemusic-mini=n
           CONFIG_PACKAGE_luci-app-vsftpd=n
-          CONFIG_PACKAGE_luci-app-vlmcsd=n
+          CONFIG_PACKAGE_luci-app-vlmcsd=y
           CONFIG_PACKAGE_luci-app-zerotier=n
           CONFIG_PACKAGE_luci-app-koolproxyR=n
           CONFIG_PACKAGE_luci-theme-argon=n
