@@ -74,7 +74,7 @@ jobs:
           
           
       - name: SSH connection to Actions
-        uses: P3TERX/Actions-OpenWrt@master
+        uses: P3TERX/ssh2actions@v1.0.0
         if: env.SSH_ACTIONS == 'true'
 
 
