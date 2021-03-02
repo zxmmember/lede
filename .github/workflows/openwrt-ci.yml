@@ -15,6 +15,10 @@ on:
  watch:
     types: started
 
+env:
+ SSH_ACTIONS: false
+ TZ: Asia/Shanghai
+ DIY_SH: diy.sh
 
 jobs:
 
