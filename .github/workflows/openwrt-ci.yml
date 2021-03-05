@@ -96,12 +96,12 @@ jobs:
           
           # 常用软件包:
           cat >> .config <<EOF
-          CONFIG_PACKAGE_curl=n
-          CONFIG_PACKAGE_htop=n
-          CONFIG_PACKAGE_screen=n
-          CONFIG_PACKAGE_tree=n
+          CONFIG_PACKAGE_curl=y
+          CONFIG_PACKAGE_htop=y
+          CONFIG_PACKAGE_screen=y
+          CONFIG_PACKAGE_tree=y
           CONFIG_PACKAGE_vim-fuller=n
-          CONFIG_PACKAGE_wget=n
+          CONFIG_PACKAGE_wget=y
           EOF
           
           # ========================固件定制部分结束========================
